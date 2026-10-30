@@ -1,6 +1,6 @@
 # RWE Pain Points with Evidence
-
-English translation of the spreadsheet “rwe-painpoints w. evidence”.
+**改正方向**
+==[角色] 在 [任务/触发条件] 下，由于 [具体障碍]，需要 [额外操作]，造成 [可测量后果]。==
 
 | Workflow ID | Workstream | Main task | Pain Points | Evidence |
 |---|---|---|---|---|
