@@ -31,7 +31,7 @@ flowchart TD
 **Reading note:** W10 and W11 represent parallel or adjacent activities, rather than mandatory post-analysis steps. Data QC and model validation are iterative in practice.
 
 | ID | Workstream | Task | Typical owner | Input → output | Methods |
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 | W01 | Research planning | Research question and protocol design | HEOR scientist; epidemiologist | Clinical/business question; existing literature → Protocol; statistical analysis plan | Literature databases; protocol templates |
 | W02 | Research planning | Data source selection and feasibility | RWE scientist; data lead | Research question; data catalogs; dictionaries → Data suitability assessment | DataSAT; metadata reviews |
 | W03 | Data preparation | Data acquisition and integration | Data engineer; RWE analyst | Claims/EHR data; linkage rules → Linked or integrated datasets | SQL; ETL; linkage workflows |
