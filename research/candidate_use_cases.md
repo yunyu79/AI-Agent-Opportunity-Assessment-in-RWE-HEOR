@@ -3,7 +3,7 @@
 **Status:** Six hypotheses derived from the 12-task workflow map. **Not ranked** for PMF, feasibility or ROI. Sources refer to workflow and quality requirements; they are not direct evidence of commercial demand.
 
 | ID | Use case | Mapped tasks | Target user | Proposed task boundary | Output | Success metrics | Unvalidated risk |
-|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|
 | UC01 | RWD Data QC Investigation Agent | W04; W05 | RWE data analyst; data engineer | Run existing QC checks; interpret failed rules; propose root-cause investigations; assemble review-ready issue reports | Traceable exception report with severity, suspected causes, and reviewer disposition | Triage precision; root-cause suggestion acceptance; net review hours; missed critical exceptions | QC tools already exist; Agent must add value beyond automated rule execution |
 | UC02 | Data Dictionary and Mapping Assistant | W02; W03; W04 | Data engineer; RWE analyst | Propose source-to-target field mappings and highlight semantic or datatype conflicts for human review | Mapping specification; conflicts; pending approvals | Top-1 mapping accuracy; acceptance rate; mapping time; critical mapping error rate | Semantic suggestions require domain validation and governance |
 | UC03 | Cohort Definition and Code Validation Agent | W06; W07 | Epidemiologist; RWE programmer | Translate protocol conditions into structured cohort logic; draft SQL; run rule-based and attrition checks | Auditable cohort specification; code draft; test and attrition reports | Criteria coverage; SQL test pass rate; cohort count agreement; review time | Clinical definitions and temporal logic demand expert signoff |
